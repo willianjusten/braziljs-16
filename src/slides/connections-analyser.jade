@@ -1,0 +1,7 @@
+section
+    h3 Criando o analyser
+    pre.prettyprint
+        code.javascript.
+            analyser = audioContext.createAnalyser();
+            fbc_array = new Uint8Array(analyser.frequencyBinCount);
+    p.fragment O AnalyserNode é capaz de fornecer informações sobre o frequency e o time-domain em tempo real.

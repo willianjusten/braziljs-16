@@ -1,0 +1,122 @@
+.reveal
+    h1
+        font-size 3.5em
+        line-height 0.9em
+    .main-title
+        margin-bottom 50px
+    .main-links
+        font-size 0.8em
+    .heart
+        display inline-block
+        background-image url("../img/heart.svg")
+        width 110px
+        height 110px
+        margin 0 20px -10px
+        &.activated
+            animation pulse 1.3s ease
+            animation-iteration-count 4
+    .align-left
+        text-align left
+    hr
+        border 1px dashed #000
+    > .backgrounds
+        background #222
+        
+    .list-none
+        list-style: none
+        font-size: 30px
+    .main-item
+        color: #0ab581
+        font-weight: bold
+        padding-bottom: 15px
+    .list-itens
+        list-style none
+        margin-top 80px
+        li
+            display: inline-block
+            text-align: center
+            border 1px dashed #ccc
+            width 25%
+            height 178px
+            vertical-align middle
+            padding 2%
+            margin 1%
+            &.visualizers
+                border-color #a23
+                line-height 170px
+            &.dsp
+                line-height 58px
+                border-color #a23
+            &.web-audio
+                padding 71px 2% 0
+                height 147px
+                border-color #a23
+                
+    .web-audio-options
+        margin-top 40px
+    .highlight-item
+        color #a23
+    section img
+        border none
+        background transparent
+    .non-style
+        list-style: none
+        margin 0
+    .bigger-link
+        font-size: 55px
+    .space-top
+        margin-top: 80px
+    .col
+        margin-top: 60px
+        display: inline-block
+        float: left
+    .col-70
+        width 70%
+    .col-33
+        width 33%
+    .col-30
+        width 30%
+    .move-left-minor
+        padding-left 5%
+    .move-left
+        padding-left 90px
+    pre
+        width 100% !important
+    code
+        font-size 27px
+        line-height 40px
+        padding 30px !important
+        
+pre .pln
+    color:#fffdeb
+pre .str
+    color:#aaee22
+pre .kwd
+    color:#ff0077
+pre .com
+    color:#727879
+pre .typ
+    color:#fff
+pre .lit
+    color:#ffb412
+pre .pun,.opn,.clo
+    color:#04dbe5
+pre .tag
+    color:#04dbe5
+pre .atn
+    color:#606
+pre .atv
+    color:#080
+pre .dec,.var
+    color:red
+pre .fun
+    color:red
+
+
+@keyframes pulse
+  0% 
+        transform scale(1)
+  50% 
+        transform: scale(1.3)
+  100%
+        transform: scale(1)
