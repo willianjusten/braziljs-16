@@ -1,0 +1,8 @@
+section
+    h3 Audio Tag Métodos
+    audio#myAudio(src="musics/metallica.mp3")
+    img(src="img/audio-script-methods.png", alt="")
+    button.btn-player(onclick="document.getElementById('myAudio').play()") Play
+    button.btn-player(onclick="document.getElementById('myAudio').pause()") Pause
+    button.btn-player(onclick="document.getElementById('myAudio').volume+=0.1") Aumentar o Volume
+    button.btn-player(onclick="document.getElementById('myAudio').volume-=0.1") Diminuir o Volume
