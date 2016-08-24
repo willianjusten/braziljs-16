@@ -10,4 +10,5 @@ module.exports = gulp.task('watch', function () {
   gulp.watch(paths.source.styl, ['stylus']);
   gulp.watch(paths.source.img, ['imagemin']);
   gulp.watch(paths.source.music, ['music']);
+  gulp.watch(paths.source.video, ['video']);
 });
