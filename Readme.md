@@ -1,4 +1,4 @@
-# [Front in Sampa 16 - JS <3 Music](http://willianjusten.com.br/frontinsampa-16/)
+# [BrazilJS 16 - JS <3 Music](http://willianjusten.com.br/braziljs-16/)
 
 This Presentation uses [Qualy Boilerplate](https://github.com/Qualy-org/qualy-presenter)
 
@@ -13,8 +13,8 @@ First of all, install the dependencies to run this boilerplate.
 
 ```sh
 # Clone this repository
-$ git clone git@github.com:willianjusten/frontinsampa-16.git
-$ cd frontinsampa-16
+$ git clone git@github.com:willianjusten/braziljs-16.git
+$ cd braziljs-16
 
 # install dependencies
 $ npm install
