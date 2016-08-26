@@ -18,15 +18,15 @@
     .align-left
         text-align left
     hr
-        border 1px dashed #000
+        border 1px dashed rgba(255,255,255, 0.3)
     > .backgrounds
-        background #222
+        background #000
         
     .list-none
         list-style: none
         font-size: 30px
     .main-item
-        color: #bd0202
+        color: #05C51D
         font-weight: bold
         padding-bottom: 15px
     .list-itens
@@ -124,12 +124,15 @@
     img
         border: none
         box-shadow: none !important
-        
     #meter
         width: 500px
         height: 100px
-            
+    .slide-white
+        background: #fff !important
+        color: #000 !important
         
+pre.prettyprint
+    border: none !important
 pre .pln
     color:#fffdeb
 pre .str
@@ -155,6 +158,7 @@ pre .dec,.var
 pre .fun
     color:red
 
+.pln{color:#000}@media screen{.str{color:#080}.kwd{color:#008}.com{color:#800}.typ{color:#606}.lit{color:#066}.pun,.opn,.clo{color:#660}.tag{color:#008}.atn{color:#606}.atv{color:#080}.dec,.var{color:#606}.fun{color:red}}@media print,projection{.str{color:#060}.kwd{color:#006;font-weight:bold}.com{color:#600;font-style:italic}.typ{color:#404;font-weight:bold}.lit{color:#044}.pun,.opn,.clo{color:#440}.tag{color:#006;font-weight:bold}.atn{color:#404}.atv{color:#060}}pre.prettyprint{padding:2px;border:1px solid #888}ol.linenums{margin-top:0;margin-bottom:0}li.L0,li.L1,li.L2,li.L3,li.L5,li.L6,li.L7,li.L8{list-style-type:none}li.L1,li.L3,li.L5,li.L7,li.L9{background:#eee}
 
 @keyframes pulse
   0% 
